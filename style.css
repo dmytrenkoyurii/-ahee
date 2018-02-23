@@ -1,0 +1,741 @@
+/* Підключення шрифту */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800');
+
+body {
+	font-size: 17px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	line-height: 1.588;
+}
+.header {
+	background: #f9f8fb url(img/header-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: black;
+	text-align: left;
+	padding-left: 165px;
+	padding-right: 165px; 
+	min-height: 100vh;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 2;
+	position: relative;
+}
+.header__logo {
+	float: left;
+	margin-top: 50px;
+}
+.header__nav {
+	float: right;
+	margin-top: 65px;
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 16px;
+
+}
+.header__nav--a {
+	margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+	font-weight: 700;
+	padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.header__nav--a:hover {
+	border-top: 3px solid #ff6033; /* Параметры линии */ 
+    padding-top: 9px; /* Расстояние от линии до текста */ 
+	transition: 0.3s;
+}
+.header--head {
+	padding-top: 360px;
+	font-family: Raleway;
+	color: #262626;
+	font-size: 60px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: 0px;
+}
+.header--text {
+	font-family: Raleway;
+	color: #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	width: 370px;
+}
+.header--btn {
+	background-color: #ff6033;
+	padding-left: 0px;
+    border-left-width: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: 200px;
+    height: 55px;
+    font-family: Raleway;
+	color:  #ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.header--btn:hover {
+	background-color: white;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 3px #ff6033;
+	font-weight: 500;
+	transition: 0.5s;
+}
+.header__scroll {
+	display: block;
+	width: 24px;
+	height: 40px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -12px;
+	background: url(img/scroll.png);
+	color: black;
+}
+.header__scroll:hover {
+	transform: scale(1.2);
+    transition: 0.4s;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 2px #ff6033;
+	border-radius: 12px;
+}
+/*-----------------------------*/
+.about {
+	background: #f9f8fb url(img/about-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: black;
+	text-align: left;
+	padding-left: 110px;
+	padding-right: 165px; 
+	min-height: 100vh;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 2;
+	position: relative;
+}
+.about--head {
+	float: right;
+	width: 500px;
+	margin-top: 150px;
+	font-family: Raleway;
+	color: #ffffff;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.about--text {
+	float: right;
+	width: 500px;
+	margin-left: 50%;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+.services {
+	background: #f9f8fb url(img/services-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: black;
+	text-align: left;
+	padding-top: 180px;
+	padding-left: 165px;
+	padding-right: 165px; 
+	min-height: 700px;
+	position: relative;
+}
+.services__btn {
+	max-width: 400px;
+}
+.services button {
+	float: left;
+	text-align: left;
+	background-color: white;
+	padding-left: 0px;
+    border-left-width: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: 400px;
+    height: 100px;
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 20px;
+	box-shadow: 0px 5px 20px 0px #757575;
+}
+.services button:hover {
+	transform: scale(1.05);
+    transition: 0.5s;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 4px #ff6033;
+
+}
+/*Hover ефект кнопки 1*/
+#services__btn1:hover #services__img1 {
+	transform: scale(1.2);
+	transition: 0.3s;
+	border-left: 2px solid #ff6033;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 10px;
+}
+#services__btn1:hover #services__p1 {
+	transform: scale(1.2);
+		transition: 0.5s;
+}
+/*Hover ефект кнопки 2*/
+#services__btn2:hover #services__img2 {
+	transform: scale(1.2);
+	transition: 0.3s;
+	border-left: 2px solid #ff6033;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 10px;
+}
+#services__btn2:hover #services__p2 {
+	transform: scale(1.2);
+		transition: 0.5s;
+}
+/*Hover ефект кнопки 3*/
+#services__btn3:hover #services__img3 {
+	transform: scale(1.2);
+	transition: 0.4s;
+	border-left: 2px solid #ff6033;
+	padding-top: 18px;
+    padding-bottom: 14px;
+	padding-left: 10px;
+	position: absolute;
+	left: 312px;
+	top: 7px;
+	/*Якийсь баг. Черезе те що на кнопці два рядка тексту - 
+	іконка на кнопці скакає трохи вгору. Вимушений був опустити через position: absolute;...*/
+}
+#services__btn3:hover #services__p3 {
+	transform: scale(1.2);
+		transition: 0.5s;
+}
+/*Hover ефект кнопки 4*/
+#services__btn4:hover #services__img4 {
+	transform: scale(1.2);
+	transition: 0.3s;
+	border-left: 2px solid #ff6033;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 10px;
+}
+#services__btn4:hover #services__p4 {
+	transform: scale(1.2);
+		transition: 0.5s;
+}
+
+.services button img {
+	float: right;
+	margin-right: 20px;
+	border-left: 1px solid #70bfff; /* Параметры линии */ 
+	padding-left: 20px;
+	padding-top: 22px;
+    padding-bottom: 23px;
+    margin-top: 0px;
+    width: 55px;
+    height: 55px;
+}
+.services button p {
+	float: left;
+	text-align: center;
+	width: 300px;
+    margin-top: 30px;
+}
+
+.services--head{
+	float: right;
+    width: 550px;
+    right: 165px;
+    margin-top: 200px;
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+	position: absolute;
+}
+
+
+.gallery {
+	background-color: #ffe92f;
+	min-height: 1535px;	
+	color: black;
+	text-align: left;
+	padding-left: 165px;
+	padding-right: 165px; 
+	position: relative;
+}
+.gallery h1{
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-top: 0px;
+    padding-top: 120px;
+}
+.gallery p{
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.grid--img1 {
+	width: 770px;
+	height: 550px;
+	float: left;
+	position: absolute;
+	left: 165px;
+	top: 330px;
+}
+.grid--img2 {
+	width: 370px;
+	height: 260px;
+	float: right;
+	position: absolute;
+	right: 165px;
+	top: 330px;
+}
+.grid--img3 {
+	width: 370px;
+	height: 260px;
+	float: right;
+	position: absolute;
+	right: 165px;
+	top: 640px;
+}
+.grid--img4 {
+	width: 570px;
+	height: 400px;
+	float: left;
+	position: absolute;
+	left: 165px;
+	bottom: 210px;
+}
+.grid--img5 {
+	width: 570px;
+	height: 400px;
+	float: right;	
+	position: absolute;
+	right: 165px;
+	bottom: 210px;
+}
+.gallery button {
+	display: block;
+	width: 200px;
+	height: 55px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -100px;
+	background-color: #5585a2;
+	color: white;
+	border: none;
+	padding: none;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;
+}
+.gallery button:hover {
+	background-color: #ffe92f;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 3px #5585a2;
+	font-weight: 500;
+	transition: 0.5s;
+}
+/*-------------------------------*/
+.subscribe {
+	background: #f9f8fb url(img/subscribe-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: black;
+	text-align: left;
+	padding-left: 165px;
+	padding-right: 165px; 
+	min-height: 500px;
+	position: relative;
+}
+.subscribe h1 {
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 40px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding-top: 145px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.subscribe p {
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	width: 570px;
+}
+
+.subscribe__form--email {
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #262626;
+	box-sizing: border-box;
+	background-color:  rgba(38, 38, 38, 0);
+	width: 570px;
+	height: 55px;
+}
+.subscribe__form--btn {
+	background-color: #96b92c;
+	width: 170px;
+	height: 55px;
+	border: none;
+	padding: none;
+	margin-left: 30px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+}
+.subscribe__form--btn:hover {
+	background-color: white;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 3px #96b92c;
+	font-weight: 500;
+	transition: 0.5s;
+}
+/*-------------------------------*/
+.blog {
+	background-color: #b07cf7;
+	min-height: 865px;	
+	color: white;
+	padding-left: 165px;
+	padding-right: 165px; 
+	position: relative;
+}
+.blog--head {
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 122px;
+    padding-bottom: 50px;
+}
+.blog--text{
+	width: 570px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin: 0 auto;
+	    padding-bottom: 50px;
+}
+
+.blog__flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+}
+.blog__area {
+	position: relative;
+    width: 370px;
+	height: 310px;
+	overflow:hidden;
+}
+.blog__area:hover img  {
+	transform: scale(1.1);
+	transition: 0.5s;
+	opacity: 0.9;
+}
+.blog__area:hover .blog__area--date {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.blog__area:hover .blog__area--head {
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+.blog__area:hover .blog__area--details {
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.blog__area:hover .blog__area--date1 {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.blog__area--date {
+	border-radius: 5px;
+	background-color:  rgba(38, 38, 38, 0.5);
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+.blog__area--date1 {
+	position: absolute;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 32px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	top: 4px;
+    left: 12px;
+    margin-top: 0px;
+}
+.blog__area--date2 {
+	position: absolute;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 21px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 800;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin-bottom: 0px;
+	left: 8px;
+	bottom: 4px;
+}
+.blog__area--head {
+	position: absolute;
+font-family: Raleway;
+color:  #ffffff;
+font-size: 20px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 25px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+left: 20px;
+bottom: 60px;
+	width: 330px;
+	margin-bottom: 0px;
+}
+.blog__area--details {
+	position: absolute;
+font-family: Raleway;
+color:  #ffffff;
+font-size: 13px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 25px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+left: 20px;
+bottom: 25px;
+margin-bottom: 0px;
+}
+
+.blog__area--author {
+	text-decoration: none;
+	color: white;
+}
+
+.blog button {
+	background-color: #f72b3b;
+	width: 200px;
+	height: 55px;
+	display: block;
+	position: absolute;
+	bottom: 100px;
+	left: 50%;
+	margin-left: -100px;
+	border: none;
+	padding: none;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;
+}
+.blog button:hover {
+	background-color: #b07cf7;
+    color: #262626;
+    cursor: pointer;
+	box-shadow: 0 0 0 3px #f72b3b;
+	font-weight: 500;
+	transition: 0.5s;
+}
+.blog__area--author:hover {
+	border-bottom: 1.5px solid #b07cf7; /* Параметры линии */ 
+    padding-bottom: 0px; /* Расстояние от линии до текста */
+	transition: 0.2s; 
+}
+/*-------------------------------*/
+
+.contact {
+	background: #f9f8fb url(img/contact-bg.png) 50% no-repeat;
+	background-size: cover;
+	color: black;
+	padding-left: 165px;
+	padding-right: 165px; 
+	min-height: 110vh;
+	position: relative;
+}
+.contact__head {
+	text-align: center;
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.contact__text{
+	text-align: center;
+	width: 370px;
+	font-family: Raleway;
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;
+	margin: 0 auto;
+	padding-bottom: 45px;
+}
+.contact__form {
+	float: left;
+	width: 500px;
+}
+.subscribe__form--text {
+	background-color:  rgba(0, 196, 196, 0.5);
+	width: 480px;
+	height: 50px;
+	padding-left: 20px;
+	border-left-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    margin-bottom: 15px;
+    font-family: Raleway;
+	color:  #ffffff;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.subscribe__form--textarea {
+	background-color:  rgba(0, 196, 196, 0.5);
+	width: 480px;
+	padding-left: 20px;
+	border-left-width: 0px;
+    border-bottom-width: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	vertical-align: top;
+	padding-top: 10px;
+    height: 240px;
+    padding-right: 0px;
+}
+
+.contact__address {
+	float: right;
+	width: 500px;
+}
+.contact__address h2 {
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Raleway;
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.contact__address p {
+	margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Raleway;
+	color:  #262626;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.contact__form input::-webkit-input-placeholder {
+    color: white;
+    font-weight: 300;
+   } 
+.contact__form input::-moz-placeholder {
+    color: white;
+    font-weight: 300;
+   }
+.subscribe__form--textarea::-webkit-input-placeholder {
+    color: white;
+    font-weight: 300;
+   } 
+.subscribe__form--textarea::-moz-placeholder {
+    color: white;
+    font-weight: 300;
+   }
+.contact__form input:focus {
+	background-color: #00c4c4;;
+	transition: 0.8s; 
+	border-left: 5px solid #355b82; /* Параметры линии */ 
+	outline: 0; /* Прибиє обводку посилання синім */
+    outline-offset: 0;
+}
+.subscribe__form--textarea:focus {
+	background-color: #00c4c4;;
+	transition: 0.8s; 
+	border-left: 5px solid #355b82; /* Параметры линии */ 
+	outline: 0; /* Прибиє обводку посилання синім */
+    outline-offset: 0;
+}
